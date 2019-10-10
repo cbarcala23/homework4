@@ -1,0 +1,21 @@
+#viewhigh {
+    float: left;
+}
+
+#time {
+    float: right;
+}
+
+#content {
+    text-align: center;
+}
+
+.main {
+    padding: 50px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+
+}
