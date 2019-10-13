@@ -39,7 +39,6 @@ function display_question() {
     contentEl.append(buttonareaEl);
     
     for(var i = 0; i < questions[currentquestion].choices.length; i++) {
-        var rightans = questions[currentquestion].answer;
         //create button
         var buttonEl = document.createElement("button");
         //give button data from choices in array
@@ -50,9 +49,10 @@ function display_question() {
         //add event listener for each button in loop
         buttonEl.addEventListener("click", function(event) {
             console.log(event);
+            
         });
+
     }
-    currentquestion++;
 
 }
 

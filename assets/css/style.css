@@ -1,21 +1,24 @@
 #viewhigh {
     float: left;
+    margin: 20px;
 }
 
 #time {
     float: right;
+    margin: 20px;
 }
 
 #content {
     text-align: center;
-}
-
-.main {
-    padding: 50px;
+    padding: 100px;
 }
 
 button {
     display: block;
     margin: 0 auto;
 
+}
+
+#buttonarea {
+    text-align: left;
 }
